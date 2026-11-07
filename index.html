@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11100f">
+  <title>The Perfect Alibi — Case 001</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#" data-screen="home">THE PERFECT <span>ALIBI</span></a>
+    <div class="topbar-right">
+      <span class="case-label">CASE FILE 001</span>
+      <span class="status-dot"></span>
+      <span class="status-text">CLOSED? NOT YET</span>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="screen active hero-screen">
+      <div class="hero-copy">
+        <p class="eyebrow">AN INTERACTIVE DETECTIVE EXPERIENCE</p>
+        <h1>THE PERFECT<br><em>ALIBI.</em></h1>
+        <p class="hero-subtitle">
+          Every story has more than one side. Every suspect has a reason.
+          But what if not everyone was playing the same game?
+          <br><br>
+          Four people. Four different intentions. One missing masterpiece.
+          Look beyond the obvious. The truth may be more complicated than it seems.
+        </p>
+        <div class="hero-meta">
+          <span>IZMIR, TURKEY</span><span>·</span>
+          <span>ONE MISSING MASTERPIECE</span><span>·</span>
+          <span>FOUR SUSPECTS</span>
+        </div>
+        <button class="primary-button" data-screen="briefing">ENTER THE CASE <span>↗</span></button>
+      </div>
+
+      <div class="hero-art">
+        <div class="art-frame">
+          <svg viewBox="0 0 440 540" role="img" aria-label="A mysterious abstract painting in a gallery">
+            <defs>
+              <linearGradient id="paintingBg" x1="0" y1="0" x2="1" y2="1">
+                <stop stop-color="#34221d"/>
+                <stop offset=".52" stop-color="#8b5c3d"/>
+                <stop offset="1" stop-color="#171514"/>
+              </linearGradient>
+              <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+                <stop stop-color="#d8b77b"/>
+                <stop offset="1" stop-color="#77512d"/>
+              </linearGradient>
+            </defs>
+            <rect x="20" y="20" width="400" height="500" fill="#211d19" stroke="#a78655" stroke-width="5"/>
+            <rect x="36" y="36" width="368" height="468" fill="url(#paintingBg)"/>
+            <path d="M40 365 Q110 270 190 340 T400 285 L400 504 L40 504Z" fill="#171615"/>
+            <path d="M75 220 Q150 90 235 205 T390 140 L390 275 Q275 335 190 250 T75 330Z" fill="#b17a4e" opacity=".8"/>
+            <path d="M120 70 Q180 125 165 230 Q150 315 230 385 Q275 420 310 470" fill="none" stroke="url(#gold)" stroke-width="19" opacity=".8"/>
+            <circle cx="280" cy="170" r="62" fill="#d2b17a" opacity=".7"/>
+            <path d="M55 430 L380 90" stroke="#f0d6a5" stroke-width="2" opacity=".18"/>
+            <text x="220" y="485" fill="#ead7b6" text-anchor="middle" font-family="Georgia" font-size="13" letter-spacing="5">THE LAST LIGHT</text>
+          </svg>
+        </div>
+        <p class="art-caption">THE LAST LIGHT <span>— REPORTED MISSING AT 22:18</span></p>
+        <div class="vertical-note">PRIVATE COLLECTION / EXHIBITION NIGHT</div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>01 / THE INVESTIGATION BEGINS</span>
+        <span>SCROLL TO DISCOVER</span>
+      </div>
+    </section>
+
+    <section id="briefing" class="screen page-screen">
+      <div class="section-heading">
+        <p class="eyebrow">01 — THE INCIDENT</p>
+        <h2>A masterpiece.<br><em>A missing minute.</em></h2>
+      </div>
+
+      <div class="briefing-grid">
+        <div class="briefing-text">
+          <p class="lead">At an invitation-only preview in an exclusive Izmir gallery, a priceless painting vanished without a trace.</p>
+          <p><em>The Last Light</em>, valued at approximately $8 million, was loaned to the gallery by a private family collection. The gallery had permission to exhibit the work — not to sell it.</p>
+          <p>At the end of the evening, the painting was gone. Security cameras had been offline for exactly ten minutes. Four people had access, opportunity, or a reason to lie.</p>
+          <p>Your task is to examine the evidence, compare statements, and decide who physically moved the painting.</p>
+
+          <p class="lead">But remember: being involved doesn't always mean being on the same side. Some people had plans. Others had secrets of their own.</p>
+
+          <div class="fact-strip">
+            <div><strong>22:08</strong><span>CAMERAS DISABLED</span></div>
+            <div><strong>22:18</strong><span>PAINTING REPORTED MISSING</span></div>
+            <div><strong>$8M</strong><span>ESTIMATED VALUE</span></div>
+          </div>
+
+          <button class="primary-button" data-screen="suspects">MEET THE SUSPECTS <span>↗</span></button>
+        </div>
+
+        <aside class="case-note">
+          <span class="note-label">CONFIDENTIAL CASE NOTE</span>
+          <div class="note-line"></div>
+          <p>“The theft appears to have happened during a ten-minute blind spot. But the person who planned the disappearance may not be the person who moved the painting.”</p>
+          <span class="note-signature">— LEAD INVESTIGATOR</span>
+        </aside>
+      </div>
+    </section>
+
+    <section id="suspects" class="screen page-screen">
+      <div class="section-heading">
+        <p class="eyebrow">02 — PEOPLE OF INTEREST</p>
+        <h2>Four stories.<br><em>One missing truth.</em></h2>
+        <p class="section-intro">Read each profile carefully. Their jobs gave them different kinds of access — and different reasons to be here.</p>
+      </div>
+
+      <div id="suspectGrid" class="suspect-grid"></div>
+
+      <div class="section-actions">
+        <button class="secondary-button" data-screen="briefing">← CASE BRIEFING</button>
+        <button class="primary-button" data-screen="evidence">OPEN THE EVIDENCE <span>↗</span></button>
+      </div>
+    </section>
+
+    <section id="evidence" class="screen page-screen">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">03 — THE INVESTIGATION</p>
+        <h2>Follow the <em>evidence.</em></h2>
+        <p class="section-intro">Review every file, compare the timeline, and revisit the suspects whenever you need to.</p>
+      </div>
+
+      <div class="evidence-toolbar">
+        <button class="text-button" data-screen="suspects">← BACK TO SUSPECT FILES</button>
+        <div class="progress-wrap">
+          <span id="progressCount">0 / 8 FILES REVIEWED</span>
+          <div class="progress-track"><div id="progressBar"></div></div>
+        </div>
+      </div>
+
+      <div class="suspect-reference">
+        <div class="subheading">
+          <span>QUICK REFERENCE</span>
+          <small>SELECT A SUSPECT TO REVIEW THEIR STATEMENT</small>
+        </div>
+        <div id="suspectReference" class="reference-grid"></div>
+      </div>
+
+      <div class="investigation-board">
+        <div class="timeline-panel">
+          <div class="subheading"><span>CASE TIMELINE</span><small>CONFIRMED EVENTS</small></div>
+          <div id="timeline" class="timeline">
+            <p class="empty-state">Review evidence files to build the timeline.</p>
+          </div>
+        </div>
+
+        <div class="evidence-panel">
+          <div class="subheading"><span>EVIDENCE FILES</span><small>01 — 08</small></div>
+          <div id="evidenceList" class="evidence-list"></div>
+        </div>
+      </div>
+
+      <div id="evidenceDetail" class="evidence-detail">
+        <div class="detail-placeholder">
+          <span class="detail-symbol">✳</span>
+          <p>SELECT AN EVIDENCE FILE</p>
+          <small>Each document reveals another part of the case.</small>
+        </div>
+      </div>
+
+      <p id="unlockHint" class="unlock-hint">Review the first file to begin.</p>
+
+      <div class="section-actions">
+        <button class="secondary-button" data-screen="suspects">← REVIEW SUSPECTS</button>
+        <button id="verdictButton" class="primary-button" disabled>MAKE YOUR VERDICT <span>↗</span></button>
+      </div>
+    </section>
+
+    <section id="verdict" class="screen page-screen verdict-screen">
+      <div class="section-heading">
+        <p class="eyebrow">04 — YOUR CONCLUSION</p>
+        <h2>Who moved<br><em>The Last Light?</em></h2>
+        <p class="section-intro">Choose the person you believe physically moved the painting. The planner and the person who carried it may not be the same.</p>
+      </div>
+
+      <div id="verdictGrid" class="verdict-grid"></div>
+      <p id="verdictError" class="error-message" aria-live="polite"></p>
+
+      <div class="section-actions">
+        <button class="secondary-button" data-screen="evidence">← REVIEW EVIDENCE</button>
+        <button id="submitVerdict" class="primary-button">LOCK IN MY VERDICT <span>↗</span></button>
+      </div>
+    </section>
+
+    <section id="reveal" class="screen page-screen reveal-screen">
+      <div class="reveal-top">
+        <p class="eyebrow">05 — CASE REVEALED / CASE 001</p>
+        <span id="revealStatus" class="reveal-stamp">CASE SOLVED</span>
+      </div>
+
+      <h2 id="revealTitle">The truth behind<br><em>the perfect alibi.</em></h2>
+      <p id="revealLead" class="reveal-lead"></p>
+
+      <div id="fullExplanation" class="full-explanation"></div>
+
+      <div class="subheading reveal-subheading">
+        <span>WHO DID WHAT — AND WHY</span>
+        <small>THE FOUR PEOPLE BEHIND THE CASE</small>
+      </div>
+
+      <div id="rolesGrid" class="role-grid"></div>
+
+      <div class="final-note">
+        <span>CASE 001 / THE LAST EXHIBITION</span>
+        <p>The truth was never just about a missing painting.</p>
+        <p>Adnan had a plan. Mert helped make it possible. Veysel wanted something for himself. And Elif had a different reason to act.</p>
+        <p>They were all part of the same night, but they were never playing the same game.</p>
+        <p><em>Sometimes, the biggest mystery isn't who did it — it's why everyone did.</em></p>
+      </div>
+
+      <button id="restartGame" class="primary-button">RESTART THE INVESTIGATION <span>↗</span></button>
+    </section>
+  </main>
+
+  <div id="suspectModal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalName">
+      <button id="closeModal" class="modal-close" aria-label="Close">×</button>
+      <div id="modalPortrait" class="modal-portrait"></div>
+      <p id="modalRole" class="eyebrow"></p>
+      <h2 id="modalName"></h2>
+      <div class="modal-divider"></div>
+      <p id="modalStatement" class="modal-statement"></p>
+      <div class="modal-note">
+        <span>INVESTIGATOR'S NOTE</span>
+        <p id="modalNote"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
