@@ -18,7 +18,7 @@ Gaver (1991) introduces sequential affordances, where one action reveals informa
 
 ## 4. What I Learned
 
-A participant who had not previously seen the project completed the experience independently without getting stuck. They noticed that evidence files unlocked sequentially, showing that this rule was understandable without additional explanation. They also praised the screen design and story structure, and described the ending as unexpected. This feedback suggests that the interface successfully communicates the investigation process while preserving the mystery of the narrative.
+A participant who had not previously seen the project completed the experience independently without getting stuck. They noticed that evidence files unlocked sequentially and praised the screen design and story structure, describing the ending as unexpected. Based on this test, I decided to keep the sequential unlocking rule and avoid adding unnecessary instructions, since the participant understood the investigation without help.
 
 ## Live Project
 
