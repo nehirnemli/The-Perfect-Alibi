@@ -20,6 +20,10 @@ Gaver (1991) introduces sequential affordances, where one action reveals informa
 
 A participant who had not previously seen the project completed the experience independently without getting stuck. They noticed that evidence files unlocked sequentially, showing that this rule was understandable without additional explanation. They also praised the screen design and story structure, and described the ending as unexpected. This feedback suggests that the interface successfully communicates the investigation process while preserving the mystery of the narrative.
 
+## Live Project
+
+https://nehirnemli.github.io/The-Perfect-Alibi/
+
 ## References
 
 Gaver, W. W. (1991). Technology affordances. *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems*, 79–84. https://doi.org/10.1145/108844.108856
