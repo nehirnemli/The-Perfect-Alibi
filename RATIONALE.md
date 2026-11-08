@@ -28,4 +28,4 @@ https://nehirnemli.github.io/The-Perfect-Alibi/
 
 Gaver, W. W. (1991). Technology affordances. *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems*, 79–84. https://doi.org/10.1145/108844.108856
 
-Wardrip-Fruin, N., Mateas, M., Dow, S., & Sali, S. (2009). Agency reconsidered. *Proceedings of the Digital Games Research Association (DiGRA) Conference: Breaking New Ground: Innovation in Games, Play, Practice and Theory*.
+Wardrip-Fruin, N., Mateas, M., Dow, S., & Sali, S. (2009). Agency reconsidered. *Proceedings of the Digital Games Research Association (DiGRA) Conference: Breaking New Ground: Innovation in Games, Play, Practice and Theory*. https://eis.ucsc.edu/papers/nwf-C7-digra09-agency.pdf
